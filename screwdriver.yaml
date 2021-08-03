@@ -15,4 +15,4 @@ jobs:
   main:
     requires: [ ~pr, ~commit ]
     steps:
-      - echo hi
+      - echo hello
