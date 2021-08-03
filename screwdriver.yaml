@@ -1,0 +1,18 @@
+  
+shared:
+  image: node:14
+  settings:
+    slack:
+      channels:
+        - slack-test1
+      statuses:
+        - SUCCESS
+        - FAILURE
+        - QUEUED
+        - RUNNING
+      minimized: false
+jobs:
+  main:
+    requires: [ ~pr, ~commit ]
+    steps:
+      - echo hi
