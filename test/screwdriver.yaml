@@ -1,8 +1,8 @@
-parameters:
-  region:
-    value: "foo"
-    description: "Region setting"
-  cluster: ["cluster1", "cluster2"]
+# parameters:
+#   region:
+#     value: "foo"
+#     description: "Region setting"
+#   cluster: ["cluster1", "cluster2"]
  
 jobs:
   main:
