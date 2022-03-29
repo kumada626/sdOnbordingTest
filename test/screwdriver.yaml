@@ -1,6 +1,6 @@
 parameters:
   region:
-    value: "foooooooo"
+    value: "foo"
     description: "Region setting"
   cluster: ["cluster1", "cluster2"]
  
