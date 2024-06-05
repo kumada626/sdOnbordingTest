@@ -12,8 +12,8 @@ shared:
   #     minimized: false
 jobs:
   main:
-    annotations:
-      screwdriver.cd/buildPeriodically: H * * * *
+    # annotations:
+    #   screwdriver.cd/buildPeriodically: H * * * *
     requires: [ ~pr, ~commit ]
     steps:
       - echo hello
